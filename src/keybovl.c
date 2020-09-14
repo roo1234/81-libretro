@@ -355,7 +355,7 @@ static void update( retro_input_state_t input_cb, unsigned* devices, int ms )
       {
         continue;
       }
-
+      
       for ( k = ovl->keys; k->id != 0xffff; k++ )
       {
         int16_t  is_down = input_cb( p, devices[ p ], 0, k->retro );
